@@ -56,7 +56,7 @@ struct NewToDoView: View {
                     .buttonBorderShape(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=shape: ButtonBorderShape@*/.roundedRectangle/*@END_MENU_TOKEN@*/)
                     .buttonStyle(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=Button Style@*/DefaultButtonStyle()/*@END_MENU_TOKEN@*/)
             }
-            //Add a padding modifier
+            //Add a padding modifier 
             .padding()
             .frame(width: 100.0, height: 40.0)
             .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(hue: 0.735, saturation: 0.237, brightness: 0.991)/*@END_MENU_TOKEN@*/)
